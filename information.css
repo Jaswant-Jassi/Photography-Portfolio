@@ -1,0 +1,72 @@
+body {
+    background-color: #5aa9eb;
+}
+  
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #ececec;
+    padding: 1rem;
+}
+  
+.navbar > a {
+    margin: 0.5rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: rgb(5, 2, 31);
+    border: 1px solid rgb(5, 2, 31);
+    border-radius: 5px;
+    font-size: 2rem;
+}
+  
+.navbar > a:hover {
+    background-color: rgb(5, 2, 31);
+    color: #ececec;
+    
+}
+  
+  
+.information {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #2196F3;
+    padding: 10px;
+    margin-top: 1rem;
+}
+  
+fieldset {
+    background-color: #ececec;
+    text-align: center;
+    border: 1px solid rgb(5, 2, 31);
+    border-radius: 5px;
+    margin: 4rem;
+    padding: 1rem 2rem;
+  }
+  
+legend {
+    background-color: #ececec;
+    color: rgb(5, 2, 31);
+    padding: 5px 10px;
+    font-size: 1.7rem;
+    border: 1px solid rgb(5, 2, 31);
+    border-radius: 5px;
+}
+
+.about>fieldset>p {
+    font-size: 1.5rem;
+}
+
+.contact>fieldset>p {
+    font-size: 1.5rem;
+}
+    
+footer {
+    background-color: #ececec;
+    margin: 1rem 0;
+    padding: 1rem;
+    text-align: center;
+}
+  
+  
+  
+  
